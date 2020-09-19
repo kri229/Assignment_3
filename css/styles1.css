@@ -1,0 +1,21 @@
+body{
+	font-family: basic-sans , sans-serif;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	font-size: 1.12em;
+	line-height: 1.6;
+	color:#333;
+	background: #648880;
+    background-image: linear-gradient(to right, #f6f1d3, #648880, #293f50);
+    background-size: 400%;
+    animation: b1 5s infinite alternate;
+}
+@keyframes b1 {
+	0%{background-position:left;
+	}
+	100%{
+		background-position: right;
+	}
+
+}
